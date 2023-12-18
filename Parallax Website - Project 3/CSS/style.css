@@ -1,0 +1,125 @@
+*
+{
+    margin: 0%;
+    height: 100%;
+}
+
+.pimg1
+{
+    background-image: url(/images/img1.jpg);
+    min-height: 100%;
+}
+
+.pimg2
+{
+    background-image: url(/images/img2.jpg);
+    min-height: 400px;
+}
+
+.pimg3
+{
+    background-image: url(/images/img3.jpg);
+    min-height: 400px;
+}
+
+.pimg4
+{
+    background-image: url(/images/img4.jpg);
+    min-height: 400px
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext1
+{
+    text-align: center;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 33%;
+    font-size: 30px;
+    font-family: 'Lato';
+    color: white;
+    letter-spacing: 4px;
+}
+
+.ptext2
+{
+    text-align: center;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    font-family: 'Lato';
+    color: white;
+    letter-spacing: 4px;
+}
+
+.ptext3
+{
+    text-align: center;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 28%;
+    font-size: 30px;
+    font-family: 'Lato';
+    color: white;
+    letter-spacing: 4px;
+}
+
+.ptext4
+{
+    text-align: center;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    font-family: 'Lato';
+    color: white;
+    letter-spacing: 4px;
+}
+
+.textBg
+{
+    background-color: black;
+    padding: 15px;
+}
+
+.section-light
+{
+    padding: 40px 80px;
+    text-align: center;
+    height: fit-content;
+    font-family: 'Lato';
+    background-color: #F4F4F4;
+    color: #666;
+}
+
+.section h1
+{
+    margin-bottom: 15px;
+}
+
+.section-dark
+{
+    padding: 40px 80px;
+    text-align: center;
+    height: fit-content;
+    font-family: 'Lato';
+    background-color: #313534;
+    color: white
+}
