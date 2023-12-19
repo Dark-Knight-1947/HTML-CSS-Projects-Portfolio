@@ -1,0 +1,178 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+}
+
+.top-section
+{
+    background-image: url(/images/img1.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.text
+{
+    color: white;
+    font-family: 'Roboto';
+    position: relative;
+    margin-top: 5%;
+    margin-left: 24%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    height: fit-content;
+    line-height: 1.4cm;
+}
+
+.text h1
+{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.text h2
+{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.text-hi
+{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.top-section-dark
+{
+    background-color: black;
+    height: 220px;
+}
+
+.dark-text
+{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 45px;
+    word-spacing: 0.3cm;
+    font-weight: 100;
+}
+
+.you
+{
+    font-size: 120px;
+    font-weight: 100;
+}
+
+img
+{
+    width: 320px;
+    height: 192px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.work
+{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+.card
+{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.grid-item
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-content
+{
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+h3
+{
+    padding: 10px;
+    font-size: 21px;
+}
+
+p
+{
+    padding: 15px;
+}
+
+.card:hover
+{
+    background-color:#8febeb;
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+.contact
+{
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    background-color: #515603;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.about
+{
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    color: white;
+    background-color: #722300;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.final
+{
+    display: flex;
+    justify-content: center;
+}
+
+.type
+{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.footer-text
+{
+    color: white;
+    padding: 40px;
+    text-align: center;
+    word-spacing: 0.2cm;
+    font-weight: 200;
+}
+
+.footer
+{
+    background-color: black;
+    font-family: 'Roboto';
+}
