@@ -1,0 +1,282 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+}
+
+.ham
+{
+    position: relative;
+    margin-top: 2.2%;
+    margin-left: 77%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.logo
+{
+    position: relative;
+    margin-top: 1%;
+    margin-left: 4%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.top
+{
+    display: flex;
+    padding: 5px;
+}
+
+.hero-image img
+{
+    height: 400px;
+    width: 402px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.header
+{
+    display: flex;
+    margin-top: 3%;
+}
+
+.header-text
+{
+    margin-left: 18%;
+    margin-top: 4%;
+}
+
+.upper
+{
+    color: white;
+    background-color: #149F39;
+    width: fit-content;
+    margin-bottom: 5%;
+    padding: 2% 4%;
+    font-size: smaller;
+    font-weight: 100;
+    
+}
+
+.middle
+{
+    width: fit-content;
+    margin-bottom: 10%;
+    font-size: 40px;
+}
+
+.lower
+{
+    width: fit-content;
+    color: white;
+    background-color: #FFC066;
+    padding: 3% 5%;
+    font-size: large;
+}
+
+.lower:hover
+{
+    background-color: black;
+    transition: 0.3s ease-in-out;
+    scale: 1.04;
+}
+
+.middle p
+{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+.cards
+{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;   
+    gap: 80px; 
+    margin-bottom: 80px;
+}
+
+.card
+{
+    display: flex;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    max-width: 220px;
+    padding: 10px;
+}
+
+.card img
+{
+    width: 50px;
+    margin-right: 10px;
+}
+
+h6
+{
+    font-weight: 400;
+}
+
+.mid-text
+{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: fit-content;
+    color: white;
+    background-color: #149F39;
+    margin-left: 46.7%;
+}
+
+.explore
+{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.image-grid
+{
+    display: grid;
+    gap: 20px;  
+    padding: 80px 150px;
+    justify-content: center;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.item1
+{
+    grid-area: I1;
+}
+
+.item2
+{
+    grid-area: I2;
+}
+
+.item3
+{
+    grid-area: I3;
+}
+
+.item4
+{
+    grid-area: I4;
+}
+
+.item5
+{
+    grid-area: I5;
+}
+
+.item6
+{
+    grid-area: I6;
+}
+
+.item7
+{
+    grid-area: I7;
+}
+
+.item1 img
+{
+    width: 487.5px;
+    height: 487.5x;
+}
+
+.item2 img
+{
+    width: 230px;
+    height: 487.5px;
+}
+
+.item3 img
+{
+    width: 230.833px;
+    height: 228.33px;
+}
+
+.item4 img
+{
+    width: 230.833px;
+    height: 230.833px;
+}
+
+.item5 img
+{
+    width: 230.833px;
+    height: 230.833px;
+}
+
+.item6 img
+{
+    width: 230.833px;
+    height: 230.833px;
+}
+
+.item7 img
+{
+    width: 230.833px;
+    height: 484.166px;
+}
+
+.footer
+{
+    height: 260px;
+    background-color: #FFF0DB;
+    display: flex;
+    column-gap: 50px;
+    color: #565656;
+}
+
+.footer img
+{
+    width: 154.61px;
+    margin-top: 30px;
+}
+
+.logo1
+{   
+    margin-left: 13%;
+}
+
+.main_link
+{
+    margin-top: 40px;
+    margin-left: 3%;
+}
+
+.support
+{
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.newsletter
+{
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+h5
+{
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 13px;
+}
+
+.social a
+{
+    margin-right: 10px;
+}
