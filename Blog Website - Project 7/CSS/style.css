@@ -1,0 +1,165 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter';
+    scroll-behavior: smooth;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    list-style: none;
+    word-spacing: 0.09cm;
+}
+
+.name
+{
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+
+.name h4
+{
+    font-weight: 900;
+}
+
+.nav
+{
+    padding: 10px;
+    margin-top: 1.5%;
+    margin-right: 5%;
+}
+
+.nav ul
+{
+    display: flex;
+    gap: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    border-bottom: 3px solid rgb(83, 50, 50);
+    transition: 0.3s;
+}
+
+.banner
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.info
+{
+    display: flex;
+}
+
+h1
+{
+    color: #2D3748;
+    margin-bottom: 1%;
+}
+
+h4
+{
+    color: #2D3748;
+    margin-right: 5%;
+}
+
+p
+{
+    color: #718096;
+    margin-bottom: 5%;
+}
+
+.title
+{
+    margin-top: 1.5%;
+    margin-left: 24.5%;
+}
+
+
+hr
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+.text
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-self: center;
+    color: #718096;
+    margin-bottom: 3%;
+}
+
+.text1 h4
+{
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+
+.text1 p
+{
+    padding-left: 25%;
+    padding-right: 24%;
+    margin-bottom: 3%;
+}
+
+.text1 h1
+{
+    margin-left: 24.7%;
+    margin-bottom: 2%;
+}
+
+.footer
+{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.footer ul
+{
+    display: flex;
+    gap: 20px;
+}
+
+.copyright
+{
+    margin-left: 5%;
+    word-spacing: 0.08cm;
+}
+
+.iconss
+{
+    margin-right: 5%;
+}
+
+.foot
+{
+    width: 100%;
+}
+
+.footer
+{
+    background-color: aliceblue;
+}
